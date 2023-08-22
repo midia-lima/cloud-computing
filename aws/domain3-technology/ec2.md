@@ -21,5 +21,3 @@ Servidor físico EC2 exclusivo para você.
 **Spot Instances (Instâncias Spot)** <br>
 Até 90% de desconto em comparação de instâncias por demanda
 São terminadas quando o preço do spot, é maior que o preço que você estabeleceu para pagar.
-
-[Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
