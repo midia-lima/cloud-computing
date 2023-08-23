@@ -1,0 +1,4 @@
+## O que é computação em nuvem?
+A computação em nuvem entrega sob demanda de serviços de computação, armazenamento, banco de dados e outras aplicações de TI através de uma plataforma de nuvem. Isso tudo se dá via internet. Acesso à nuvem, como é o conceito de nuvem é que o acesso é via internet e com a caracteristica de pagar o que você usar.
+Uma plataforma de serviços em nuvem nos beneficia em acesso rápido, flexibilidade e baixo custo nos recursos de TI.</br>
+Com a computação em nuvem você não precisa fazer grandes investimentos de hardware e gastar tempo ou ter trabalho pesado no gerenciamento de hardware. Em vez disso você tem como prover exatamente o tipo e o tamanho do recurso que você vai utilizar. Esse recurso seja para o propósito que for, para suportar uma ideia brilhanet ou operar o seu departamento de TI. Você pode acessar quantos recursos precisar, quase instantaneamente, e pagar apenas pelo que usar.
