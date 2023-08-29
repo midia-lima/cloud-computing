@@ -1,6 +1,6 @@
 ## EC2 - Amazon Elastic Compute Cloud
 
-É um serviço web que fornece capacidade de computação segura e redimensionável na nuvem. (Máquinas Virtuais)
+É um serviço web que fornece capacidade de computação segura e redimensionável na nuvem. Uma instância é um servidor virtual na nuvem.
 
 Reduz o tempo necessário para obter e inicializar novas instâncias de servidor para minutos.
 
@@ -21,3 +21,6 @@ Servidor físico EC2 exclusivo para você.
 **Spot Instances (Instâncias Spot)** <br>
 Até 90% de desconto em comparação de instâncias por demanda
 São terminadas quando o preço do spot, é maior que o preço que você estabeleceu para pagar.
+
+## Tipos de Instância
+https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/instance-types.html
