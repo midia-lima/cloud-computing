@@ -1,4 +1,5 @@
 ## Amazon Aurora
+![AWS VPC](/aws/icon/aws-aurora.png)
 
 O Amazon Aurora é como se fosse um SGBD, parecido com MySQL e PostgreSQL.
 A diferença é que é um banco de dados criado especificamente para rodar na AWS. Ele é extremamente otimizado para ser executado nesse tipo de ambiente. Além disso, é compatível com MySQL e PostgreSQL.
