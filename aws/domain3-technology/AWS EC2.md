@@ -1,4 +1,5 @@
 ## EC2 - Amazon Elastic Compute Cloud
+![AWS VPC](/aws/icon/aws-ec2.png)
 
 É um serviço web que fornece capacidade de computação segura e redimensionável na nuvem. Uma instância é um servidor virtual na nuvem.
 
@@ -23,4 +24,4 @@ Até 90% de desconto em comparação de instâncias por demanda
 São terminadas quando o preço do spot, é maior que o preço que você estabeleceu para pagar.
 
 ## Tipos de Instância
-https://docs.aws.amazon.com/pt_br/AWSEC2/latest/UserGuide/instance-types.html
+

@@ -1,4 +1,5 @@
 ## DynamoDB
+![AWS VPC](/aws/icon/aws-dynamodb.png)
 
 O Amazon DynamoDB é um banco de dados não relacional (NoSQL) de chave-valor e documento totalmente gerenciado, rápido e flexível para qualquer escala. Oferece performace abaixo de 10 milissegundos em qualquer escala.
 
@@ -64,7 +65,5 @@ Sendo assim, essa funcionalidade, quando habilitada, adiciona uma camada de cach
 
 **Precificação**
 
-O DynamoDB cobra pela leitura, gravação e armazenamento de dados e suas tabelas
-
-
+O DynamoDB cobra pela leitura, gravação e armazenamento de dados e suas tabelas.
 
