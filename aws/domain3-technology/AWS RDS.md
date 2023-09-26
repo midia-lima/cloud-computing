@@ -1,5 +1,5 @@
 ## RDS - Relational Database Service
-![AWS VPC](/aws/icon/aws-rds.png)
+![AWS RDS](/aws/icon/aws-rds.png)
 
 O RDS é um banco de dados relacional que destaca-se por sua escalabilidade, automatização na aplicação de patches, provisionamento de hardware e backup na nuvem.
 
