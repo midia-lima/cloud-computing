@@ -5,7 +5,15 @@
 Reduz o tempo necessário para obter e inicializar novas instâncias de servidor para minutos.
 Pague apenas pela capacidade que você realmente usa.
 
-### Tipos de EC2
+Por que é chamado Elastic Compute Cloud?
+
+- **Elastic** porque você pode facilmente aumentar ou diminuir o número de servidores executados para oferecer suporte a uma aplicação automaticamente. Você também pode aumentar ou diminuir o tamanho dos servidores existentes.
+
+- **Compute** porque a maioria dos usuários executa servidores para hospedar aplicações em execução ou processar dados, que exigem recursos de computação. Esses recursos incluem potência de processamento (CPU) e memória (RAM).
+
+- **Nuvem** porque as instâncias do EC2 executadas estão hospedadas na nuvem
+
+## Tipos de EC2
 
 **On-Demand (Sob Demanda)** <br>
 Com instâncias sob demanda, você paga pela capacidade de computação por hora sem compromissos de longo prazo.
@@ -26,8 +34,18 @@ São terminadas quando o preço do spot, é maior que o preço que você estabel
 ## AMI - Imagens de máquina da Amazon
 Uma AMI é um modelo que contém a configuração do software (sistema operacional, servidor de aplicações e aplicações) necessária para executar a instância. Você deve especificar uma AMI ao executar uma instância. Também temos a opção de criar as nossas próprias imagens e criar instância a partir dela. 
 
+**Fontes de AMI**
+- Quick Start - AMIs do Linux e do Windows fornecidos pela AWS.
+  
+- Minhas AMIs - Todas as AMIs que você criou.
+  
+- AWS Marketplace - Modelos pré-configurados de terceiros.
+
+- AMIs da comunidade - AMIs compartilhadas por outras pessoas. Use por sua conta e risco.
+
+
 ## SG - Security Groups (Grupos de segurança)
-Os grupos de segurança funcionam como o "firewall" da AWS, bloqueando e permitindo acesso de entrada e de saída da instância.
+Os grupos de segurança funcionam como o "firewall" da AWS, bloqueando e permitindo acesso de entrada e de saída da instância. O grupo de segurança define em quais portas o tráfego de rede é permitido
 
 ## IPs Elásticos (Elastic IP)
 O serviço de registro de IP da Amazon. Garante que a sua máquina mantenha um IP único, mesmo que seja desligada. 

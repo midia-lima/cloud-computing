@@ -110,7 +110,37 @@ Para configurar o bucket para permitir solicitações entre origens, crie uma co
 
 ## Classes de armazenamento do S3
 
+*S3 Standard* - Dados acessados com frequência
 
+*S3 Standard IA* - Dados duradouros acessados com pouca frequência
+
+*S3 One Zone IA* - Dados duradouros, não críticos e acessados com pouca frequência
+
+*Amazon S3 Glacier ou Deep Archive* - Arquivamento de dados raramente acessados
+
+[Categorias de armazenamento do Amazon S3](https://aws.amazon.com/pt/s3/storage-classes/)
+
+## Políticas de ciclo de vida do S3
+Configure uma política de ciclo de vida do S3 para excluir ou mover objetos com base na idade deles. Uma configuração de ciclo de vida é um conjunto de regras que definem ações aplicadas pelo S3 a um grupo de objetos.
+
+Assim que uma política de ciclo de vida do S3 é definida, os dados migram automaticamente para uma classe de armazenamento diferente sem causar alterações às aplicações.
+
+## Custos do Amazon S3
+
+| Pague apenas pelo uso, incluindo | 
+| ----------- | 
+| GBs de objetos armazenados (por mês). Preços diferentes por região e por classe de armazenameno.      | 
+| Transfira para outras regiões ou para a internet |
+| PUT, COPY, POST, LIST GET, SELECT, transição do ciclo de vida, solicitações de recuperação de dados. | 
+|| 
+
+| Não há cobrança para |
+| ----------- |
+| Transferência de dados DE ENTRADA da internet para o S3 |
+| Transferência entre os buckets do S3 ou do S3 para qualquer serviço na mesma região da AWS |
+| Transferência para o CloudFront |
+| Solicitações de DELETE e CANCEL |
+||
 
 
 
