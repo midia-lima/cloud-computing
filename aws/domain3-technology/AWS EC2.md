@@ -44,8 +44,8 @@ Uma AMI é um modelo que contém a configuração do software (sistema operacion
 - AMIs da comunidade - AMIs compartilhadas por outras pessoas. Use por sua conta e risco.
 
 
-## SG - Security Groups (Grupos de segurança)
-Os grupos de segurança funcionam como o "firewall" da AWS, bloqueando e permitindo acesso de entrada e de saída da instância. O grupo de segurança define em quais portas o tráfego de rede é permitido
+## SG - Security Groups (Grupos de Segurança)
+Os grupos de segurança funcionam como o "firewall" da AWS, bloqueando e permitindo acesso de entrada e de saída da instância. O grupo de segurança define em quais portas o tráfego de rede é permitido. O SG é por instância. 
 
 ## IPs Elásticos (Elastic IP)
 O serviço de registro de IP da Amazon. Garante que a sua máquina mantenha um IP único, mesmo que seja desligada. 

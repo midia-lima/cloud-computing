@@ -129,7 +129,7 @@ Assim que uma política de ciclo de vida do S3 é definida, os dados migram auto
 
 | Pague apenas pelo uso, incluindo | 
 | ----------- | 
-| GBs de objetos armazenados (por mês). Preços diferentes por região e por classe de armazenameno.      | 
+| GBs de objetos armazenados (por mês). Preços diferentes por região e por classe de armazenamento. | 
 | Transfira para outras regiões ou para a internet |
 | PUT, COPY, POST, LIST GET, SELECT, transição do ciclo de vida, solicitações de recuperação de dados. | 
 || 
