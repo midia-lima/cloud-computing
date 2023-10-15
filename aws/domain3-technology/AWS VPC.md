@@ -2,7 +2,10 @@
 ![AWS VPC](/aws/icon/aws-vpc.png)
 
 VPC significa virtual private cloud ou nuvem virtual privada e é basicamente uma rede virtual. Sempre que criamos uma conta na AWS cada uma das regiões da conta possui uma VPC padrão e cada zona de disponibilidade possui sua própria sub-rede por padrão. 
-Sempre que criamos uma instância ou vários outros serviços, precisamos adicionar isso a uma rede. Por padrão sempre vem uma VPC habilitada.
+
+Sempre que criamos uma instância ou vários outros serviços, precisamos adicionar isso a uma rede. 
+
+Por padrão sempre vem uma VPC habilitada, mas devemos provisionar uma seção logicamente isolada da Nuvem AWS onde podemos iniciar os nosso recursos.
 
 **Benefícios**
 - Mesmo conceito on-premises;
@@ -12,11 +15,11 @@ Sempre que criamos uma instância ou vários outros serviços, precisamos adicio
 
 **Características**
 - Região e Zonas de disponibilidade;
-- Sub-redes [Pública e Privada];
+- Sub-redes [Pública e Privada] se correlaciona com as zonas de disponibilidade;
 - Tabela de roteamento;
 - Internet Gateway [sub-rede pública];
 - Nat Gateway [sub-rede privada];
-- Security Group [SG] e Access Control List [ACLs];
+- Security Group [SG] e Access Control List [ACLs] são usados para assegurar suas VPC;
 
 ## SG - Security Groups (Grupos de segurança)
 Os grupos de segurança funcionam como o "firewall" da AWS, bloqueando e permitindo acesso de entrada e de saída da instância.

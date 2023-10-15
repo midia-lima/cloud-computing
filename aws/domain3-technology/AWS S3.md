@@ -142,6 +142,21 @@ Assim que uma política de ciclo de vida do S3 é definida, os dados migram auto
 | Solicitações de DELETE e CANCEL |
 ||
 
+## Multipart Upload
+
+
+
+## Perguntas
+O uso de multithreading em suas solicitações do Amazon S3 por meio da API Multipart Upload é um exemplo de qual prática recomendada da nuvem AWS?
+> Pense paralelo
+
+Você tem um grande número de arquivos de log que serão arquivados na AWS por um longo tempo e devem ter um tempo de recuperação de 12 horas ou menos. Qual serviço é a classe de armazenamento mais econômica para essa finalidade?
+> Amazon S3 Glacier
+
+Você deseja hospedar um site estático próprio na AWS a um custo baixo. Qual serviço deve ser usado para esse fim?
+> Amazon S3 Standard
+
+
 
 
 

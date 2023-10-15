@@ -16,5 +16,7 @@ O RDS trabalha com seis mecanismos de banco de dados:
 - Oracle
 - SQL Server
 
-
+## Perguntas
+Como suas instâncias de produção do RDS podem ser mais econômicas quando são usadas por um longo período de tempo? <br>
+> Você pode aproveitar a instância reservada para obter descontos nos custos da sua instância.
 

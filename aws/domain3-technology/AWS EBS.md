@@ -17,3 +17,10 @@ O EBS deve ser associado a apenas uma instância de cada vez.
 - Exemplos de casos de uso
   - Banco de dados autônomo
   - Armazenamento de dados de aplicações gerais
+
+## Perguntas
+Você está planejando criar backups pontuais de seus volumes do Amazon EBS. Quais das seguintes afirmações são corretas? 
+> Você pode criar backups pontuais por meio de snapshots do EBS
+> 
+> Os backups do EBS podem ser armazenados de forma durável no Amazon S3
+

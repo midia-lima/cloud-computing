@@ -11,7 +11,7 @@ Por que é chamado Elastic Compute Cloud?
 
 - **Compute** porque a maioria dos usuários executa servidores para hospedar aplicações em execução ou processar dados, que exigem recursos de computação. Esses recursos incluem potência de processamento (CPU) e memória (RAM).
 
-- **Nuvem** porque as instâncias do EC2 executadas estão hospedadas na nuvem
+- **Cloud** porque as instâncias do EC2 executadas estão hospedadas na nuvem.
 
 ## Tipos de EC2
 
@@ -52,18 +52,12 @@ O serviço de registro de IP da Amazon. Garante que a sua máquina mantenha um I
 Um IP por EC2 é gratuito, caso a máquina mantenha-se ligada.
 Caso haja mais IPs anexados a uma instância ou a instância seja desligada, você será cobrado.
 
-## Elastic Load Balancing (Balanceamento de carga)
-![Load Balancing](/aws/icon/aws-elb.png)
-
-Distribui automaticamente o tráfego de entrada de aplicativos entre diversos destinos, como instâncias EC2, containers, endereços IP e funções Lambda. 
-O Elastic Load Balancing é compatível com os seguintes tipos de balanceadores de carga:
-
-- Application Load Balancer
-- Network Load Balancer
-- Gateway Load Balacer
-
 ## Target Groups (Para grupos de destino)
 Para usarmos o load balancer da AWS nós precisamos definir um target group que pode ser para instâncias, IPs, etc.
+
+## Tags da Instância
+Recurso que permite rotular e classificar suas instâncias do EC2 de acordo com o estágio de implantação (desenvolvimento, preparação, produção)
+
 
 
 
