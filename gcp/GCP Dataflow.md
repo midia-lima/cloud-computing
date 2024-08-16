@@ -1,5 +1,5 @@
 ## Google Dataflow
-![Google Dataflow](/img/dataflow-icon.png)
+![Google Dataflow](/gcp/img/dataflow-icon.png)
 
 - Serviço de processamento em stream ou batch
 - Provisionamento, gerencia,emto e escalonamento automático de recursos
