@@ -1,0 +1,15 @@
+## Google Dataflow
+![Google Dataflow](/img/dataflow-icon.png)
+
+- Serviço de processamento em stream ou batch
+- Provisionamento, gerencia,emto e escalonamento automático de recursos
+- Desenvolvimento utilizando Apache Beam SDK
+
+### Principais vantagens
+
+- Configuração rápida e simplificada de pipelines
+- Redução de custo com o emprego otimizado de workers
+- Processamento sem servidor (os clusters são criados no momento de execução e após a execução eles são destruídos)
+
+
+
