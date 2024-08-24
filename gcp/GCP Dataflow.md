@@ -4,6 +4,8 @@
 - Serviço de processamento em stream ou batch
 - Provisionamento, gerencia,emto e escalonamento automático de recursos
 - Desenvolvimento utilizando Apache Beam SDK
+- Análise e processamento
+- Transmitir dados
 
 ### Principais vantagens
 
